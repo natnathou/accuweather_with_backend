@@ -1,0 +1,13 @@
+.favoritesLists {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.favoritesLists > div {
+    margin-top: 0px !important;
+}
+
+.renderInfo{
+    margin: 40px !important;
+}

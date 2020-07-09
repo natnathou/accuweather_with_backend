@@ -1,0 +1,331 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --pink-light: #e0b4b4;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --orange--light: #fff6f6;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --blue-twitter: #55acee;
+    --white: #fff;
+    --gray: #6c757d;
+    --dark: #343a40;
+    --light: #f8f9fa;
+    --bordeaux: #912d2b;
+    --shadow-blue: rgba(0, 123, 255, .25);
+    --shadow-indigo: rgba(102, 16, 242, .25);
+    --shadow-purple: rgba(111, 66, 193, .25);
+    --shadow-pink: rgba(232, 62, 140, .25);
+    --shadow-red: rgba(220, 53, 69, .25);
+    --shadow-orange: rgba(153, 126, 20, .25);
+    --shadow-yellow: rgba(255, 193, 7, .25);
+    --shadow-green: rgba(40, 167, 69, .25);
+    --shadow-teal: rgba(32, 201, 151, .25);
+    --shadow-cyan: rgba(23, 162, 184, .25);
+    --main-fontSize: 1rem;
+    --main-fontSizeButton: 1rem;
+    --main-fontWeight: 400;
+    --main-fontWeightButton: bold;
+    --main-fontWeightError: 600;
+    --main-lineHeight: 1.5;
+    --main-lineHeightButton: 1.5;
+    --main-margin: .55rem;
+    --main-margin-button: 2rem;
+    --main-padding: .35rem;
+    --main-padding-button: .75rem;
+    --main-pading-error: .5rem;
+    --main-radius: .25rem;
+    --main-radiusButton: .25rem;
+    --main-height-input: 30px;
+    --main-height-textArea: 100px;
+    --main-height-select: 30px;
+    --main-height-radio: 15px;
+    --main-height-button: 35px;
+    --main-color-error: var(--bordeaux);
+    --main-backgroundColor-error: var(--orange--light);
+    --main-boxShadowColorError: var(--pink-light);
+    --main-color-txt: var(--gray);
+    --main-color-background: var(--white);
+    --main-color-border: var(--gray);
+    --main-color-shadow: var(--shadow-blue);
+    --main-ColorButton-shadow: var(--shadow-blue);
+    --main-Color-button: var(--white);
+    --main-font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+.blue-twitter{
+        background-color: var(--blue-twitter) !important;
+}
+.blue {
+    background-color: var(--blue) !important;
+}
+
+.indigo {
+    background-color: var(--indigo) !important;
+}
+
+.purple {
+    background-color: var(--purple) !important;
+}
+
+.pink {
+    background-color: var(--pink) !important;
+}
+
+.red {
+    background-color: var(--red) !important;
+}
+
+.orange {
+    background-color: var(--orange) !important;
+}
+
+.yellow {
+    background-color: var(--yellow) !important;
+}
+
+.green {
+    background-color: var(--green) !important;
+}
+
+.yellow {
+    background-color: var(--yellow) !important;
+}
+
+.teal {
+    background-color: var(--teal) !important;
+}
+
+.cyan {
+    background-color: var(--cyan) !important;
+}
+
+.white {
+    background-color: var(--white) !important;
+}
+
+.gray {
+    background-color: var(--gray) !important;
+}
+
+.dark {
+    background-color: var(--dark) !important;
+}
+
+.light {
+    background-color: var(--light) !important;
+}
+
+
+.Error {
+    font-family: var(--main-font-family);
+    padding: var(--main-pading-error);
+    box-sizing: border-box;
+    margin-top: var(--main-margin);
+    margin-bottom: var(--main-margin);
+    width: 100%;
+    font-size: var(--main-fontSize);
+    font-weight: var(--main-fontWeightError);
+    line-height: var(--main-lineHeight);
+    color: var(--main-color-error);
+    background-color: var(--main-backgroundColor-error);
+    border: 1px solid var(--main-color-error);
+    border-radius: var(--main-radius);
+    box-shadow: 0 0 0 1px var(--main-boxShadowColorError) inset, 0 0 0 0 transparent;
+}
+
+.Form {
+    width: 100%;
+    padding: var(--main-padding);
+    display: flex;
+    flex-direction: column;
+}
+
+.Form > div {
+    width: 100%;
+}
+
+.Form > div > div {
+    width: 100%;
+}
+
+.Form input {
+    height: var(--main-height-input);
+    box-sizing: border-box;
+}
+
+.Form textarea {
+    height: var(--main-height-textArea);
+    box-sizing: border-box;
+
+}
+
+.ErrorColor {
+    color: var(--main-color-error) !important;
+    background-color: var(--main-backgroundColor-error);
+    border: 1px solid var(--main-color-error) !important;
+    box-shadow: 0 0 0 1px var(--main-boxShadowColorError) inset, 0 0 0 0 transparent;
+}
+
+.ErrorColorRadioCheckbox {
+    color: var(--main-color-error) !important;
+}
+
+.ErrorColor::placeholder {
+    color: var(--main-color-error) !important;
+}
+
+.Form input[type="file"]{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+
+.file{
+    height: var(--main-height-input);
+    margin-top: var(--main-margin);
+    margin-bottom: var(--main-margin);
+    display: flex;
+    align-items: center;
+}
+.file>label {
+    font-family: var(--main-font-family);
+    width: 100%;
+    font-size: var(--main-fontSize);
+    font-weight: var(--main-fontWeight);
+    line-height: var(--main-lineHeight);
+    color: var(--main-color-txt);
+    background-color: var(--main-color-background);
+    cursor: pointer;
+}
+
+
+.file>label>.svgUpload {
+    height: calc(var(--main-height-input)/2);
+}
+
+
+.Form input, .Form textarea {
+    font-family: var(--main-font-family);
+    width: 100%;
+    margin-top: var(--main-margin);
+    margin-bottom: var(--main-margin);
+    font-size: var(--main-fontSize);
+    font-weight: var(--main-fontWeight);
+    line-height: var(--main-lineHeight);
+    color: var(--main-color-txt);
+    background-color: var(--main-color-background);
+    background-clip: padding-box;
+    border: 1px solid var(--main-color-border);
+    border-radius: var(--main-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.Form textarea{
+    max-width: none!important;
+}
+
+.radio, .checkbox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio > input, .checkbox > input {
+    width: var(--main-height-radio);
+    height: var(--main-height-radio);
+
+}
+
+.radio > input:focus, .checkbox > input {
+    background-color: transparent !important;
+    border-color: transparent !important;;
+    box-shadow: 0 0 0 0 !important;
+    outline: 0;
+}
+
+.Form select {
+    font-family: var(--main-font-family);
+    height: var(--main-height-select);
+    margin-top: var(--main-margin);
+    margin-bottom: var(--main-margin);
+    font-size: var(--main-fontSize);
+    font-weight: var(--main-fontWeight);
+    line-height: var(--main-lineHeight);
+    color: var(--main-color-txt);
+    background-color: var(--main-color-background);
+    background-clip: padding-box;
+    border: 1px solid var(--main-color-border);
+    border-radius: var(--main-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
+
+
+.Form input::placeholder {
+    color: var(--main-color-txt);
+}
+
+.Form input:focus, .Form textarea:focus, .Form select:focus {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem var(--main-color-shadow);
+}
+
+.Image{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.Image>img{
+    width: 30%;
+    margin-top: var(--main-margin);
+    margin-bottom: var(--main-margin);
+    border-radius: var(--main-radius);
+}
+
+.Button {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Button button {
+    display: inline-block;
+    font-family: var(--main-font-family);
+    height: var(--main-height-button);
+    margin-top: var(--main-margin-button);
+    margin-bottom: var(--main-margin-button);
+    padding: 0 var(--main-padding-button) 0 var(--main-padding-button);
+    font-size: var(---main-fontSizeButton);
+    font-weight: var(--main-fontWeightButton);
+    line-height: var(--main-lineHeightButton);
+    color: var(--main-Color-button);
+    border: 1px solid transparent;
+    border-radius: var(--main-radiusButton);
+    outline: 0;
+    background-clip: padding-box;
+    cursor: pointer;
+    transition: border-color .10s ease-in-out, box-shadow .10s ease-in-out;
+}
+
+
+.Button button:active {
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem var(--main-ColorButton-shadow);
+}

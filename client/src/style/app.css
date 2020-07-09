@@ -1,0 +1,129 @@
+.buttonSocial{
+    border-radius: .28571429rem !important;
+    color: #fff!important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.buttonSocial:active {
+    border-color: transparent !important;
+    color: rgba(0,0,0,.87) !important;
+}
+
+.buttonSocialTabelette{
+    border-radius: .28571429rem !important;
+    color: #fff!important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 5px!important;
+    padding-left: 10px!important;
+}
+
+.containerForm{
+    margin-top: 100px !important;
+}
+
+/*menu responsive */
+
+@media screen and (min-width: 992px) {
+    .overflowCondition {
+        display: none !important;
+    }
+}
+
+.containerPushable {
+    position: relative;
+}
+
+
+.Pushables {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    z-index: 1;
+}
+
+
+
+/*Css Dark mode*/
+.Dark {
+    background-color: #222;
+
+}
+
+.Dark .menuHeader, .Dark .renderList {
+    color: #D4D4D5 !important;
+}
+
+.Dark .menuHeader:active {
+    border-color: #D4D4D5 !important;
+}
+
+
+@media screen and (min-width: 992px) {
+    .Dark .menuLink {
+        color: #D4D4D5 !important;
+    }
+
+    .Dark .menuLink:active {
+        border-color: #D4D4D5 !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .Dark .menuLink {
+        color: #464545 !important;
+        background-color: #D4D4D5 !important;
+    }
+
+    .Dark .menuLink:active {
+        color: #fff !important;
+    }
+}
+
+.Dark .barMenu {
+    border-color: #D4D4D5 !important;
+}
+
+.Dark .renderList:hover {
+    background-color: #464545 !important;
+}
+
+
+.Dark .ui.menu .menuHeader:hover {
+    color: #D4D4D5 !important;
+}
+
+
+.Dark .days_5_card {
+    background-color: #222 !important;
+
+}
+
+.Dark .days_5_card .header {
+    color: #D4D4D5 !important;
+}
+
+.Dark .days_5_card .maxAndMin {
+    color: #D4D4D5 !important;
+}
+
+.Dark .renderInfo {
+    background-color: #464545 !important;
+}
+
+.Dark .renderInfo .header, .Dark .renderInfo .meta, .Dark .renderInfo .description {
+    color: #D4D4D5 !important;
+}
+
+.Dark .dropdownMenu {
+    background-color: #D4D4D5 !important;
+}
+
+
+.Dark .containerForm{
+    background-color: #464545 !important;
+}
+
+

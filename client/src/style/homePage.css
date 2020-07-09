@@ -1,0 +1,19 @@
+.homeInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.homeInfo i {
+    cursor: pointer;
+}
+
+.maxAndMin {
+    width: 90%;
+    display: flex;
+    justify-content: space-between
+}
+
+.renderInfo{
+    padding-bottom: 50px !important;
+ }
